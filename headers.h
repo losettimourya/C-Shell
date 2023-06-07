@@ -1,0 +1,24 @@
+#ifndef HEAD_H
+#define HEAD_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <limits.h>
+#include <math.h>
+#include <string.h>
+#include <sys/wait.h>
+#include <sys/utsname.h>
+#include <dirent.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <time.h>
+#include <fcntl.h>
+#include <grp.h>
+#include <pwd.h>
+#include <errno.h>
+#include <fnmatch.h>
+char *parsed[100],*parsedpipe[100];
+int stack[100];
+char* cmds[100];
+int fpid;
+#endif
